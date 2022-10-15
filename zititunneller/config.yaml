@@ -1,0 +1,19 @@
+---
+name: ziti-tunneller
+version: 2.0.0
+slug: zititunneller
+description: Tunnels the homeassistant dashboard into your openziti zero trust network.
+url: https://github.com/theheckwr/homeassistant-addon-zititunneller
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  log_level: info
+  jwt: null
+schema:
+  log_level: list(error|warning|info|debug)
+  jwt: str
